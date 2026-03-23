@@ -19,13 +19,17 @@ export const HeroSection = () => {
               Thawale
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3 ">
-            I craft stellar digital experiences — from elegant front-end
-            interfaces to robust<br /> backend databases. Skilled in HTML5, CSS3,
-            Tailwind, Bootstrap, React.js, and no <br /> stranger to Node.js, I also
-            work with MongoDB, MySQL, and AI tools like ChatGPT.<br /> Whether it's
-            WordPress, Wix, or Excel automations, I build sleek,<br /> responsive,  and
-            intelligent web solutions.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+            I build scalable, high-performance web applications — from elegant
+            front-end interfaces to robust backend systems.
+            <br /> Skilled in React.js, Next.js, Tailwind CSS, and modern
+            JavaScript, I also develop powerful APIs using Node.js and FastAPI.
+            <br /> I work with databases like MongoDB, MySQL, and integrate AI
+            tools such as OpenAI and Gemini APIs to create intelligent,
+            real-world solutions.
+            <br /> From full stack development to platforms like Wix Studio and
+            WordPress, I focus on delivering clean, responsive, and impactful
+            digital experiences.
           </p>
 
           <div className=" pt-4 opacity-0 animate-fade-in-delay-4 mt-12">

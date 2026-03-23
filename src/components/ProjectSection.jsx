@@ -1,65 +1,150 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
+  // 🔥 NEW PROJECTS (Converted from upper)
+
   {
     id: 1,
+    title: "Clothes Store — Shopify E-Commerce (Freelance)",
+    description:
+      "A production-grade Shopify store built for a real client, handling 5–7 lakh monthly traffic with high-converting UI and optimized performance.",
+    image: "projects/Baga.png",
+    tags: ["Shopify", "Liquid", "JavaScript", "CSS"],
+    demoUrl: "https://mgux0j-0w.myshopify.com/",
+    githubUrl: "https://mgux0j-0w.myshopify.com/", // no repo
+  },
+
+  {
+    id: 2,
+    title: "Smart Developer Assistant (SDA)",
+    description:
+      "AI-integrated collaboration platform with real-time coding, multi-user support, and in-browser execution.",
+    image: "projects/sda.png",
+    tags: ["MERN", "Socket.io", "Firebase", "Gemini API"],
+    demoUrl: "https://github.com/piyushthawale19/SDA-Final",
+    githubUrl: "https://github.com/piyushthawale19/SDA-Final",
+  },
+
+  {
+    id: 3,
+    title: "Agentic Studio — AI YouTube Content Agent",
+    description:
+      "AI platform for creators to generate thumbnails, scripts, titles, and analyze videos using GenAI.",
+    image: "projects/agentic.png",
+    tags: ["Next.js", "TypeScript", "Convex", "Gemini AI", "Clerk"],
+    demoUrl: "https://agenticstudio-psi.vercel.app/",
+    githubUrl: "https://github.com/piyushthawale19/Agenticstudio",
+  },
+
+  {
+    id: 4,
+    title: "Expensio — AI Receipt Tracker SaaS",
+    description:
+      "Full-stack SaaS app using AI for OCR-based receipt tracking with real-time dashboard and subscriptions.",
+    image: "projects/receipt.png",
+    tags: ["Next.js", "TypeScript", "Convex", "Gemini AI", "Inngest"],
+    demoUrl: "https://receipt-tracker-app-lyart.vercel.app/",
+    githubUrl: "https://github.com/piyushthawale19/-RECEIPT-TRACKER-APP",
+  },
+
+  {
+    id: 5,
+    title: "Yummy-Fi — Restaurant Platform (Freelance)",
+    description:
+      "Restaurant website with ongoing Swiggy/Zomato-style ordering system and dine-in experience.",
+    image: "projects/yummyfi.png",
+    tags: ["Web Platform"],
+    demoUrl: "https://www.yummyfi.in/",
+    githubUrl: "https://www.yummyfi.in/",
+  },
+
+  {
+    id: 6,
+    title: "Vibe Commerce — Full Stack Cart",
+    description:
+      "Responsive e-commerce cart with animations, live totals, and checkout flow.",
+    image: "projects/vibe.png",
+    tags: ["React", "TypeScript", "Node.js", "Tailwind CSS"],
+    demoUrl: "https://vibe-commerce-rust.vercel.app/",
+    githubUrl: "https://github.com/piyushthawale19/Vibe-Commerce",
+  },
+
+  {
+    id: 7,
+    title: "Curriculum CMS (Intern Project)",
+    description:
+      "Full-stack CMS for managing educational content with admin dashboard and secure authentication.",
+    image: "projects/cms.png",
+    tags: ["Next.js", "MongoDB", "Mongoose", "Tailwind CSS"],
+    demoUrl: "https://curriculum-developer-intern.vercel.app/",
+    githubUrl: "https://github.com/piyushthawale19/Curriculum-Developer-Intern",
+  },
+
+  // 🔥 OLD PROJECTS (unchanged)
+
+  {
+    id: 8,
     title: "Filght & Hotel Booking Platform",
     description:
-      "A Full-stack travel booking platform clone inspired by MakeMyTrip, featuring dynamic search, responsive UI, and real-time data integration.",
+      "A Full-stack travel booking platform clone inspired by MakeMyTrip with dynamic search and responsive UI.",
     image: "/projects/img3.png",
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "https://make-my-trip-clone-springboot-2.onrender.com/",
     githubUrl:
       "https://github.com/piyushthawale19/make-my-trip-clone-springboot",
   },
+
   {
-    id: 2,
+    id: 9,
     title: "Bank Management System",
     description:
-      "A Java-based Bank Management System with account creation, secure online transactions, and core banking functionalities..",
+      "Java-based banking system with account creation, secure transactions, and core banking features.",
     image: "/projects/img1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["Java", "SQL"],
     demoUrl: "https://github.com/piyushthawale19/BankManagementSystem",
     githubUrl: "https://github.com/piyushthawale19/BankManagementSystem",
   },
-  
+
   {
-    id: 3,
+    id: 10,
     title: "Wix-Based Developer Portfolio",
     description:
-      "Designed a modern, interactive portfolio with Wix Studio, combining sleek visuals and smooth navigation to highlight my work and tech stack.",
+      "Modern interactive portfolio built with Wix Studio showcasing projects and tech stack.",
     image: "/projects/img4.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Wix Studio", "UI/UX"],
     demoUrl: "https://piyushthawale7.wixstudio.com/my-site-4",
     githubUrl: "https://piyushthawale7.wixstudio.com/my-site-4",
   },
+
   {
-    id: 4,
+    id: 11,
     title: "Image Search Engine",
     description:
-      "A responsive image search engine built with HTML, CSS, and JavaScript that fetches high-quality images using real-time API queries.",
+      "Responsive image search engine using real-time API queries.",
     image: "/projects/img2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://piyushthawale19.github.io/Create-Image-Search-Engine/",
     githubUrl: "https://github.com/piyushthawale19/Create-Image-Search-Engine",
   },
+
   {
-    id: 5,
+    id: 12,
     title: "Music Player",
     description:
-      "A sleek, browser-based music player built with HTML, CSS, and JavaScript, featuring custom controls and responsive design.",
+      "Browser-based music player with custom controls and responsive UI.",
     image: "/projects/img6.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://piyushthawale19.github.io/Musci-Player/",
     githubUrl: "https://github.com/piyushthawale19/Musci-Player",
   },
+
   {
-    id: 6,
-    title: "Global Currencies Conversion ",
+    id: 13,
+    title: "Global Currency Converter",
     description:
-      "A real-time currency converter web app built with HTML, CSS, and JavaScript, enabling seamless conversion between global currencies.",
+      "Real-time currency converter web app supporting multiple global currencies.",
     image: "/projects/img5.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://piyushthawale19.github.io/currency-conversion/",
     githubUrl: "https://github.com/piyushthawale19/currency-conversion",
   },
